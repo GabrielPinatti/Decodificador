@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;    
+    line-height: 150%;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: url(/imagens/matrix-digital-background-free-video.jpg);
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+}
+  
+.titulo {
+    margin: 0px;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+}
+
+.hacker {
+    margin-left: 10px;
+    padding-top: 10px;
+    width:5%;
+}
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area {
+    border-radius: 24px;
+    color: black;
+    text-transform: lowercase;
+}
+
+::placeholder {color: black;}
+    .text-area:focus {
+        outline: none;
+    }
+
+.mensagem {
+        background: white;
+        border-radius: 24px;
+        color: black;
+        margin-left: 98px;
+        padding-left: 20px;
+    }
+
+.mensagem:focus {
+        outline: none;
+    }
+
+.botoes {
+        display: flex;
+        margin-top: 18px;
+    }
+
+.btn-desencriptar {
+        background: white;
+        border: 1px solid black;
+        border-radius: 24px;
+        color: black;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 30px;
+        width: 328px;
+    }
+
+.btn-encriptar {
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 24px;
+        color: black;
+        cursor: pointer;
+        height: 67px;
+        width: 328px;
+    }
+
+.btn-copiar {
+        border: 1px solid black;
+        border-radius: 24px;
+        color: black;
+        cursor: pointer;
+        height: 67px;
+        margin-left: 108px;
+        margin-top: 68px;
+        width: 342px;
+}
+        
+.informacao {
+        color: white;
+        font-size: 18px;
+        text-align: center;
+    }
